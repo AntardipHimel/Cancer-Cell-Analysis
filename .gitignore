@@ -1,0 +1,86 @@
+# =============================================================================
+# Cancer Cell Analysis - .gitignore
+# =============================================================================
+# Only track: .py, .m, .svg, .md, .txt, .gitignore, .gitkeep
+# Ignore everything else.
+
+# ===== IGNORE ALL DATA FOLDERS (top-level) =====
+/cell_classification/
+/cropped_lens/
+/cropped_lens_gray/
+/cropped_lens_gray_pure/
+/dataset/
+/dataset_2class/
+/dataset_good_vs_notgood/
+/dl_output/
+/dl_output_2class/
+/dl_output_3dcnn/
+/dl_output_good_vs_notgood/
+/extracted_frames/
+/fixed_videos/
+/gap_analysis/
+/image_circle/
+/original_videos/
+/output/
+/predictions/
+
+# ===== ONCOLENS: ignore data folders =====
+/OncoLens/input/
+/OncoLens/output/
+/OncoLens/models/
+
+# ===== IGNORE BY FILE TYPE (catches anything else) =====
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.wmv
+*.m4v
+*.flv
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.gif
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.h5
+*.mat
+*.csv
+*.xlsx
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.so
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.log
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+
+# ===== ALWAYS TRACK THESE (overrides above) =====
+!*.py
+!*.m
+!*.md
+!*.txt
+!*.svg
+!*.gitkeep
+!*.gitignore
+!*.ps1

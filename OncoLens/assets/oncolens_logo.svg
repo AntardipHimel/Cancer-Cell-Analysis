@@ -1,0 +1,59 @@
+<svg width="680" height="400" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    <linearGradient id="lens-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64B5F6"/>
+      <stop offset="50%" stop-color="#1976D2"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main logo group centered -->
+  <g transform="translate(340, 160)">
+    <!-- Outer lens ring -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="url(#blue-grad)" stroke-width="8"/>
+    
+    <!-- Inner lens ring -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#1976D2" stroke-width="3"/>
+    
+    <!-- Lens glass effect -->
+    <circle cx="0" cy="0" r="68" fill="#E3F2FD" opacity="0.3"/>
+    
+    <!-- Cell representation - stylized circles -->
+    <circle cx="-20" cy="-15" r="28" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+    <circle cx="-20" cy="-15" r="10" fill="#1565C0" opacity="0.7"/>
+    
+    <circle cx="25" cy="20" r="22" fill="none" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="25" cy="20" r="8" fill="#1976D2" opacity="0.6"/>
+    
+    <circle cx="-5" cy="35" r="16" fill="none" stroke="#2196F3" stroke-width="1.5"/>
+    <circle cx="-5" cy="35" r="5" fill="#2196F3" opacity="0.5"/>
+    
+    <!-- Small detail cells -->
+    <circle cx="40" cy="-25" r="10" fill="none" stroke="#42A5F5" stroke-width="1"/>
+    <circle cx="-45" cy="15" r="12" fill="none" stroke="#42A5F5" stroke-width="1"/>
+    
+    <!-- Crosshair/target marks -->
+    <line x1="-95" y1="0" x2="-78" y2="0" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="78" y1="0" x2="95" y2="0" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="-95" x2="0" y2="-78" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="78" x2="0" y2="95" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Logo text -->
+  <text x="340" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#0D47A1">
+    <tspan fill="#1565C0">Onco</tspan><tspan fill="#0D47A1">Lens</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="340" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#546E7A" letter-spacing="3">
+    CANCER CELL CLASSIFICATION
+  </text>
+  
+  <!-- AI badge -->
+  <rect x="305" y="350" width="70" height="24" rx="12" fill="#E3F2FD" stroke="#1976D2" stroke-width="1"/>
+  <text x="340" y="366" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#1565C0">AI POWERED</text>
+</svg>
